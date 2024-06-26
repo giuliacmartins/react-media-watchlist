@@ -1,10 +1,10 @@
 import React from 'react'
-import Media from './components/media/Media'
+import Home from './pages/Home';
 
 function App() {
     return (
       <div>
-        <Media/>
+        <Home />
       </div>
     )
 }
