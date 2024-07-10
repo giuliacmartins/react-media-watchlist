@@ -9,14 +9,12 @@ import './App.css';
 function App() {
     return (
         <Router>
-            <div className="app-container">
-                <Routes>
-                    <Route path="/" element={<WithNavbar><Home /></WithNavbar>} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/signup" element={<Signup />} />
-                    {/* Add routes for other pages like Search, Movies, TV Shows, Anime here */}
-                </Routes>
-            </div>
+            <Routes>
+                <Route path="/" element={<WithNavbar><Home /></WithNavbar>} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
+                {/* Add routes for other pages like Search, Movies, TV Shows, Anime here */}
+            </Routes>
         </Router>
     );
 }

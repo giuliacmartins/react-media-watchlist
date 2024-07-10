@@ -1,0 +1,25 @@
+.home-container {
+    padding: 20px;
+    margin-left: 200px; /* Ensure the home container is not under the navbar */
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.media-item {
+    position: relative;
+    text-align: center;
+}
+
+.media-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.media-info {
+    margin-top: 10px;
+    text-align: left;
+}
